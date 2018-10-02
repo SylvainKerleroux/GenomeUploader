@@ -1,0 +1,59 @@
+Variant_name	Variant_alleles	Variant_source	Phenotype_name	Phenotype_description	Clinical_significance	Associated_variant_risk_allele	P_value
+rs225245	AG	dbSNP		High light scatter reticulocyte percentage of red cells		G	6e-42
+rs629535	CT	dbSNP		Dupuytren's disease		T	4e-40
+rs225245	AG	dbSNP		High light scatter reticulocyte count		G	2e-39
+rs875622	AG	dbSNP		Neutrophil percentage of white cells		G	2e-39
+rs853784	CT	dbSNP		Fasting Glucose		T	8.279e-39
+rs853783	AC	dbSNP		Fasting Glucose		A	1.356e-38
+rs860510	AC	dbSNP		Fasting Glucose		A	5.236e-38
+rs472614	AG	dbSNP		Fasting Glucose		A	7.202e-37
+rs217181	CT	dbSNP		Metabolite levels			1e-36
+rs853779	GT	dbSNP		Fasting Glucose		T	1.457e-36
+rs551754	CT	dbSNP		Fasting Glucose		T	2.353e-36
+rs503931	AC	dbSNP		Fasting Glucose		A	5.548e-36
+rs833805	AG	dbSNP		Hematocrit		G	6e-36
+rs853772	GT	dbSNP		Fasting Glucose	benign	T	1.101e-35
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for body mass index		T	4e-34
+rs887807	CT	dbSNP		Photic sneeze reflex			8e-34
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for body mass index		T	2e-33
+rs1346408	CT	dbSNP		Height		T	3.362e-33
+rs611744	AG	dbSNP		Dupuytren's disease			1e-32
+rs387976	AC	dbSNP		Cholesterol total		A	4.33e-32
+rs1061147	AC	dbSNP		Age-related macular degeneration	benign	A	7e-32
+rs833805	AG	dbSNP		Hemoglobin concentration		G	5e-31
+rs944002	AG	dbSNP		Liver enzyme levels (gamma-glutamyl transferase)		G	6e-29
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for body mass index		T	3e-27
+rs833805	AG	dbSNP		Red blood cell count		G	3e-27
+rs853787	GT	dbSNP		HOMA-B levels		T	5.853e-27
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for body mass index		T	1e-26
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for BMI (adjusted for smoking behaviour)		T	2e-26
+rs537183	CT	dbSNP		HOMA-B levels		T	3.534e-26
+rs557462	CT	dbSNP		HOMA-B levels		T	4.857e-26
+rs247826	CT	dbSNP		White blood cell count		T	4e-25
+rs857691	CT	dbSNP		Glycated hemoglobin levels	benign,likely benign	T	4e-25
+rs579060	GT	dbSNP		HOMA-B levels		T	7.091e-25
+rs486981	AG	dbSNP		HOMA-B levels		A	8.124e-25
+rs508506	AC	dbSNP		HOMA-B levels		A	9.258e-25
+rs1358980	CT	dbSNP		Waist-hip ratio		T	2e-24
+rs929596	AG	dbSNP		Total bilirubin levels in HIV-1 infection			3e-24
+rs1331308	AC	dbSNP		Plateletcrit		C	1e-23
+rs247826	CT	dbSNP		Lymphocyte counts		T	2e-23
+rs378974	CT	dbSNP		Reticulocyte fraction of red cells		T	2e-23
+rs606452	AC	dbSNP		Height		A	2e-23
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for BMI (adjusted for smoking behaviour)		T	2e-22
+rs878860	CT	dbSNP		Atopic dermatitis		G	2e-22
+rs477224	CT	dbSNP		Fasting Glucose		T	2.113e-22
+rs921720	AG	dbSNP		Crohn's disease		A	1e-21
+rs477992	AG	dbSNP		Amino acid levels		A	3e-21
+rs714027	AG	dbSNP		Lymphocyte counts		G	3e-21
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for body mass index		T	4e-21
+rs572515	AG	dbSNP		Macular Degeneration			4.098857e-21
+rs272564	AC	dbSNP		Resting heart rate		C	5e-21
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for body mass index		T	1e-20
+rs1358980	CT	dbSNP		Waist-to-hip ratio adjusted for BMI (joint analysis for main effect and physical activity interaction)			1e-20
+rs655246	AG	dbSNP		Cholesterol total		A	1.413e-20
+rs395157	CT	dbSNP		Inflammatory bowel disease		A	2e-20
+rs611060	CT	dbSNP		Cholesterol total		T	3.223e-20
+rs616488	AG	dbSNP		Breast Cancer		A	5e-20
+rs921720	AG	dbSNP		Inflammatory bowel disease		G	8e-20
+rs573549	AG	dbSNP		Cholesterol total		A	1.042e-19

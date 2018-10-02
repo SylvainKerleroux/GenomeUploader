@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<link rel= "stylesheet" type="text/css" href="{{ url_for('static',filename='result_table.css') }}">
+	<table>
+		<tr>
+			{% for column in table_header %}
+				<th>{{ column }}</th>
+			{% endfor %}
+		</tr>
+		{% for row in table_results %}
+			<tr>
+				{% for item in row %}
+					<td>{{ item }}</td>	
+				{% endfor %}	
+			</tr>
+		{% endfor %}
+	</table>	
+{% endblock %}
