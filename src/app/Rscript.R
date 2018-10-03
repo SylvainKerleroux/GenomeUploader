@@ -2,13 +2,17 @@ rm(list=ls(all=TRUE))
 options(stringsAsFactors=FALSE)
 graphics.off()
   
-setwd("/home/working/")
-
+wd = getwd()
+setwd(wd)
 args = commandArgs(trailingOnly=TRUE)
 
-inputfile = args[1]
-outputfile = args[2] 
-martfile = "./mart_export.txt"
+file_name = args[1]
+
+inputfile = paste(wd, "/app/database/input/", args[1], sep="")
+outputfile = paste(wd, "/app/database/output/", args[1], sep="")
+martfile = paste(wd, "/app/database/mart_export.txt", sep="")
+
+file.create(outputfile)
 
 FD <- read.delim(inputfile,sep = ",",check.names=FALSE)
 rownames(FD) = FD$RSID
@@ -16,7 +20,7 @@ colnames(FD) = c("Variant_name","CHROMOSOME","POSITION","Variant_alleles")
 FD$CHROMOSOME = NULL
 FD$POSITION = NULL
 
-data <- read.delim(mart_file,sep = "\t",check.names=FALSE)
+data <- read.delim(martfile,sep = "\t",check.names=FALSE)
 data$"Variant alleles" = gsub("/","",data$"Variant alleles")
 colnames(data) = gsub(" ","_",colnames(data))
 data = data[data$Variant_alleles %in% FD$Variant_alleles,]
